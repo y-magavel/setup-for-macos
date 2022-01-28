@@ -13,3 +13,7 @@ brew install mas
 #AppStoreアプリケーションのインストール
 chmod +x ./customize/appstore-install.sh
 ./customize/appstore-install.sh
+
+#その他環境構築の実行
+chmod +x ./customize/etc-settings.sh
+./customize/etc-settings.sh
