@@ -6,3 +6,10 @@
 #デスクトップアプリケーションのインストール
 chmod +x ./customize/guiapp-install.sh
 ./customize/guiapp-install.sh
+
+#mas-cliのインストール
+brew install mas
+
+#AppStoreアプリケーションのインストール
+chmod +x ./customize/appstore-install.sh
+./customize/appstore-install.sh
