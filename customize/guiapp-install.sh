@@ -20,3 +20,24 @@ brew install --cask clipy
 
 #iTerm2のインストール
 brew install --cask iterm2
+
+#JetBrains Toolbox Appのインストール
+brew install --cask jetbrains-toolbox
+
+#TablePlusのインストール
+brew install --cask tableplus
+
+#Zoomのインストール
+brew install --cask zoom
+
+#Mozilla Firefoxのインストール
+brew install --cask firefox
+
+#Spotifyのインストール
+brew install --cask spotify
+
+#Discordのインストール
+brew install --cask discord
+
+#ChatWorkのインストール
+brew install --cask chatwork
