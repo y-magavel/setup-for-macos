@@ -14,3 +14,24 @@ mas install 803453959
 
 #Todoistのインストール
 mas install 585829637
+
+#1Passwordのインストール
+mas install 1333542190
+
+#BetterSnapToolのインストール
+mas install 417375580
+
+#RunCatのインストール
+mas install 1429033973
+
+#Skitchのインストール
+mas install 425955336
+
+#LINEのインストール
+mas install 539883307
+
+#Bearのインストール
+mas install 1091189122
+
+#Quick View Calendarのインストール
+mas install 1087080039
