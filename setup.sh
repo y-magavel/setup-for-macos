@@ -1,19 +1,19 @@
 #!/bin/bash
 
-#Homebrewのインストール
+# Homebrewのインストール
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 
-#デスクトップアプリケーションのインストール
-chmod +x ./customize/guiapp-install.sh
+# カレントディレクトリ配下の全てのシェルスクリプトに実行権限を付与する
+chmod -R +x ./
+
+# デスクトップアプリケーションのインストール
 ./customize/guiapp-install.sh
 
-#mas-cliのインストール
+# mas-cliのインストール
 brew install mas
 
-#AppStoreアプリケーションのインストール
-chmod +x ./customize/appstore-install.sh
+# AppStoreアプリケーションのインストール
 ./customize/appstore-install.sh
 
-#その他環境構築の実行
-chmod +x ./customize/etc-settings.sh
+# その他環境構築の実行
 ./customize/etc-settings.sh
