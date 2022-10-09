@@ -17,3 +17,6 @@ brew install mas
 
 # その他環境構築の実行
 ./customize/etc-settings.sh
+
+# 開発系のセットアップを実行する
+./dev/main.sh
