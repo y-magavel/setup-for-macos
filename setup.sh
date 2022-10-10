@@ -13,7 +13,7 @@ chmod -R +x ./
 ./appstore/main.sh
 
 # その他環境構築の実行
-./customize/etc-settings.sh
+./etc/main.sh
 
 # 開発系のセットアップを実行する
 ./dev/main.sh
