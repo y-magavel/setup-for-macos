@@ -9,11 +9,8 @@ chmod -R +x ./
 # デスクトップアプリケーションのインストール
 ./guiapp/main.sh
 
-# mas-cliのインストール
-brew install mas
-
 # AppStoreアプリケーションのインストール
-./customize/appstore-install.sh
+./appstore/main.sh
 
 # その他環境構築の実行
 ./customize/etc-settings.sh
