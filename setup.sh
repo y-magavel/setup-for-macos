@@ -7,7 +7,7 @@
 chmod -R +x ./
 
 # デスクトップアプリケーションのインストール
-./customize/guiapp-install.sh
+./guiapp/main.sh
 
 # mas-cliのインストール
 brew install mas
