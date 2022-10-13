@@ -7,16 +7,13 @@
 chmod -R +x ./
 
 # デスクトップアプリケーションのインストール
-./customize/guiapp-install.sh
-
-# mas-cliのインストール
-brew install mas
+./guiapp/main.sh
 
 # AppStoreアプリケーションのインストール
-./customize/appstore-install.sh
+./appstore/main.sh
 
 # その他環境構築の実行
-./customize/etc-settings.sh
+./etc/main.sh
 
 # 開発系のセットアップを実行する
 ./dev/main.sh

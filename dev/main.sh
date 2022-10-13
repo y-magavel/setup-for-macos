@@ -1,5 +1,7 @@
 #!/bin/bash
 
-sh ./target/install-git.sh
-sh ./target/install-go.sh
-sh ./target/install-node.sh
+cd $(dirname $0)
+
+./target/install-git.sh
+./target/install-go.sh
+./target/install-node.sh
