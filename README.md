@@ -26,3 +26,23 @@ setup.shを実行することで、各ディレクトリ配下のシェルスク
   - これがないとカレントディレクトリが呼び出し元のパスになり、スクリプトファイルの相対パスがおかしくなります。
   - dirnameコマンドは、引数で指定したパスのディレクトリ部分を返します。
   - $0は、実行中のスクリプトファイルのパスを表します。
+
+- 追加で設定が必要なものにはTODOアノテーションコメントを記載しています。
+  - 参考例：install-awscli.sh
+    ```bash
+    #!/bin/bash
+
+    cd $(dirname $0)
+  
+    # AWS CLIのインストール
+    brew install awscli
+  
+    # TODO: AWS CLIの初期化設定
+    # aws configure
+    #
+    # 入力例（ap-northeast-1は東京リージョン、output formatはデフォルトでjson形式）
+    # AWS Access Key ID [None]: アクセスキーID
+    # AWS Secret Access Key [None]: シークレットアクセスキー
+    # Default region name [None]: ap-northeast-1
+    # Default output format [None]: json
+    ```

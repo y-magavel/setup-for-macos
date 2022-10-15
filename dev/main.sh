@@ -6,3 +6,4 @@ cd $(dirname $0)
 ./target/install-go.sh
 ./target/install-node.sh
 ./target/install-docker.sh
+./target/install-awscli.sh
