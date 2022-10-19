@@ -15,3 +15,4 @@ cd $(dirname $0)
 ./target/install-chatwork.sh
 ./target/install-postman.sh
 ./target/install-fig.sh
+./target/install-notion.sh
