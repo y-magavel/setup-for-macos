@@ -13,3 +13,6 @@ cd $(dirname $0)
 ./target/install-spotify.sh
 ./target/install-discord.sh
 ./target/install-chatwork.sh
+./target/install-postman.sh
+./target/install-fig.sh
+./target/install-notion.sh
