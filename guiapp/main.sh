@@ -16,3 +16,4 @@ cd $(dirname $0)
 ./target/install-postman.sh
 ./target/install-fig.sh
 ./target/install-notion.sh
+./target/install-tonnelblick.sh
