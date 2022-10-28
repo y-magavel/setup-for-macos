@@ -8,3 +8,4 @@ cd $(dirname $0)
 ./target/install-docker.sh
 ./target/install-awscli.sh
 ./target/install-terraform.sh
+./target/install-tree-command.sh
