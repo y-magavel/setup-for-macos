@@ -19,3 +19,4 @@ cd $(dirname $0)
 ./target/install-tunnelblick.sh
 ./target/install-deepl.sh
 ./target/install-keka.sh
+./target/install-gather.sh
