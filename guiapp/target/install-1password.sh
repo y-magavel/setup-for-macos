@@ -3,4 +3,4 @@
 cd $(dirname $0)
 
 # 1Passwordのインストール
-mas install 1333542190
+brew install --cask 1password
