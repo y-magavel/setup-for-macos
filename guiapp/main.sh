@@ -21,3 +21,4 @@ cd $(dirname $0)
 ./target/install-keka.sh
 ./target/install-gather.sh
 ./target/install-1password.sh
+./target/install-raycast.sh
