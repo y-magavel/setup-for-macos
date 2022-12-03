@@ -22,3 +22,4 @@ cd $(dirname $0)
 ./target/install-gather.sh
 ./target/install-1password.sh
 ./target/install-raycast.sh
+./target/install-warp.sh
