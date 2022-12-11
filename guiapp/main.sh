@@ -5,7 +5,7 @@ cd $(dirname $0)
 ./target/install-google-chrome.sh
 ./target/install-vscode.sh
 ./target/install-clipy.sh
-./target/install-iterm2.sh
+#./target/install-iterm2.sh
 ./target/install-jetbrains-toolbox.sh
 ./target/install-tableplus.sh
 ./target/install-zoom.sh
@@ -22,3 +22,4 @@ cd $(dirname $0)
 ./target/install-gather.sh
 ./target/install-1password.sh
 ./target/install-raycast.sh
+./target/install-warp.sh
